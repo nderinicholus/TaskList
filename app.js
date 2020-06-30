@@ -1,9 +1,9 @@
 // Define UI Vars
 const form = document.querySelector('#task-form');
-const taskList = document.querySelector('.collection'); // Populates the task list in ul>li
-const clearBtn = document.querySelector('.clear-tasks');
-const filter = document.querySelector('#filter');
-const taskInput = document.querySelector('#task');
+const taskList = document.querySelector('.collection'); // taskList > .collection - Populates the task list in ul>li
+const clearBtn = document.querySelector('.clear-tasks'); // clearBtn > .clear-tasks - Press the Clear Task btn to  clear/delete the lists
+const filter = document.querySelector('#filter'); // filter > #filter - when the task list is long, then use this field to search by character/name
+const taskInput = document.querySelector('#task'); // taskInput > #task - User types the tasks here. Helps capture the value.
 
 // Load all event listeners
 loadEventListeners();
